@@ -50,7 +50,7 @@ jobs:
       - name: Run Playwright Tests
         run: npx playwright test
         env:
-          TEST_ENV_BASE_URL: htts://staging.nano-courses.ru
+          TEST_ENV_BASE_URL: https://staging.nano-courses.ru
       - uses: actions/upload-artifact@v3
         if: always()
         with:
