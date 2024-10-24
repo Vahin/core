@@ -27,5 +27,5 @@ export const nextAuthConfig: AuthOptions = {
         clientSecret: privateConfig.GITHUB_SECRET,
       }),
   ]),
-  secret: privateConfig.NEXAUTH_SECRET,
+  secret: privateConfig.NEXTAUTH_SECRET,
 };
